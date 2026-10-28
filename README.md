@@ -1,26 +1,34 @@
 # Martin Lepage
 
-Researcher and software builder based in Montréal. I build AI-supported research tools, accessible web applications, and local-first business systems.
+Researcher and software builder based in Montréal. I develop AI-supported research tools, accessible applications, and systems that make evidence, permissions, and human review explicit.
 
-My projects connect research questions to working interfaces, structured data pipelines, and explicit operating boundaries. The repositories below provide source code, architecture notes, and verification paths.
+My work connects research methods to usable software: a claim can retain its source, an agent can be denied a tool, and a user can inspect how a result was produced.
 
-## Selected projects
+## Selected work
 
-| Project | What it does | Technical focus |
+| Project | Problem addressed | Implementation to review |
 | --- | --- | --- |
-| [GAP](https://github.com/martinlepage26-bit/GAP) | Turns reviews and demand signals into ranked unmet needs | Python, structured LLM extraction, PostgreSQL, pgvector, React/TypeScript |
-| [ECHO](https://github.com/martinlepage26-bit/ECHOapp) · [Reader](https://martin.govern-ai.ca/echo/) | Reads documents aloud with sentence navigation and keyboard controls | Browser speech, document parsing, local speech integration, Cloudflare Workers |
-| [ControlWard](https://github.com/martinlepage26-bit/controlward) | Combines native CRM and project operations workflows | Swift/macOS, local persistence, TypeScript, Workers/D1 |
-| [PHAROS Workbench](https://github.com/martinlepage26-bit/PHAROS-workbench) | Organizes research boards, corpus registers, timelines, and knowledge maps | TypeScript, session authentication, schema validation, Workers/D1 |
-| [BarrioPro](https://github.com/martinlepage26-bit/barriopro) | Connects construction takeoffs, estimates, quotes, and bid tracking | React, Vite, Base44, domain data modeling |
+| [Aequitas](https://github.com/martinlepage26-bit/aequitas) | Organizing claims, evidence, competing interpretations, and human review | Next.js, TypeScript, Prisma/PostgreSQL, case permissions, WebAuthn security tests |
+| [Épistémè](https://github.com/martinlepage26-bit/episteme) | Tracing qualitative coding and reconciliation across contrasting readings | React/TypeScript, Express, MongoDB, SHA-256 audit verification |
+| [Rated N](https://github.com/martinlepage26-bit/rated-n) | Connecting a career narrative to supported capabilities and relevant roles | React, Workers/D1, asynchronous analysis, evidence checks, release verification |
+| [GAP](https://github.com/martinlepage26-bit/GAP) | Finding recurring unmet needs in reviews and demand signals | Python, structured extraction, PostgreSQL/pgvector, queue workers |
+| [ECHO](https://github.com/martinlepage26-bit/ECHOapp) · [Reader](https://martin.govern-ai.ca/echo/) | Reading documents aloud with sentence navigation and keyboard controls | Document parsing, browser speech, optional local synthesis, Cloudflare Workers |
+| [ControlWard](https://github.com/martinlepage26-bit/controlward) | Connecting native CRM and project operations workflows | Swift/macOS, local persistence, reviewed connector updates, TypeScript edge API |
 
-## Areas of work
+## Where to start
 
-- **Applied AI and research tooling:** structured extraction, evidence organization, semantic deduplication, and human-reviewed scoring.
-- **Application development:** Python, JavaScript/TypeScript, React, Swift, and SQL.
-- **Systems design:** local data handling, explicit connector permissions, validation, and documented limitations.
-- **Technical communication:** translating complex workflows into usable tools and reviewable documentation.
+- **Applied AI and governance:** Aequitas for evidence and access rules; GAP for processing pipelines; [PHAROS Agent](https://github.com/martinlepage26-bit/pharos-agent-web) for capability-gated tools and cited briefs.
+- **Research software:** Épistémè for coding, contrasting interpretations, and inspectable audit records.
+- **Application engineering:** Rated N for an asynchronous product workflow; ECHO for accessible interaction; ControlWard for native macOS work.
 
-For an AI/data review, start with **GAP**. For application engineering, start with **ECHO** or **ControlWard**. Each project README points to implementation details and available checks.
+Each project README links to implementation details, available checks, setup requirements, and known limits. Tests and synthetic examples help explain intended behavior; prototype scope is stated where relevant.
+
+## More projects
+
+[ProductPulse](https://github.com/martinlepage26-bit/productpulse) — complaint analysis with a deterministic offline path.  
+[PHAROS Workbench](https://github.com/martinlepage26-bit/PHAROS-workbench) — research boards, registers, timelines, and knowledge maps.  
+[BarrioPro](https://github.com/martinlepage26-bit/barriopro) — construction takeoffs, estimates, quotes, and bid tracking.
+
+**Technologies across these projects:** Python, TypeScript/JavaScript, React, Swift, SQL, PostgreSQL, MongoDB, and Cloudflare Workers.
 
 [Portfolio](https://martin.govern-ai.ca) · [LinkedIn](https://www.linkedin.com/in/martin-lepage-ai/) · [Email](mailto:martinlepage26@me.com)
